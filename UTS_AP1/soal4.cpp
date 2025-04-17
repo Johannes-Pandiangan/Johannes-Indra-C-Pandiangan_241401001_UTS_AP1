@@ -12,6 +12,7 @@ int main()
 
     i=0;
     jmlhvokal=0;
+    
     // Perulangan untuk memeriksa tiap karakter dalam mantra
     while (i < mantra.length()) {
         huruf = mantra[i]; // ambil karakter ke-i
@@ -24,8 +25,8 @@ int main()
 
     // Output berdasarkan hasil
     if (jmlhvokal > 0) {
-        cout << "Kekuatan mantra: "<< jmlhvokal<<" vokal"<<endl;
+        cout<<"Kekuatan mantra:"<<jmlhvokal<<" vokal"<<endl;
     } else {
-        cout << "Mantra tidak valid! Tidak mengandung vokal."<<endl;
+        cout<<"Mantra tidak valid! Tidak mengandung vokal."<<endl;
     }
 }
